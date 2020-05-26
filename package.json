@@ -1,15 +1,20 @@
 {
-  "name": "Skill Rotation Trainer",
+  "name": "skill-rotation-trainer",
   "version": "0.0.1",
   "description": "Utility that monitors keypresses and assists in GW2 damage rotation",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mstan/GW2-rotation-trainer.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew Stanley",
   "license": "ISC",
   "dependencies": {
-    "debug": "^3.1.0",
-    "iohook": "^0.1.16"
+    "debug": "^3.2.5",
+    "iohook": "^0.6.5",
+    "robotjs": "^0.6.0"
   }
 }
