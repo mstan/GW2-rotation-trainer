@@ -1,3 +1,4 @@
 module.exports = {
-	weaver: require('./weaver')
+	//weaver: require('./weaver'),
+	soulbeast: require('./soulbeast')
 }
